@@ -85,6 +85,7 @@ a {
   padding: 20px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 .card:last-child {
   flex-basis: 60%;     
 }
@@ -108,6 +109,10 @@ a {
   color: #333;
 }
 
+.card p{
+    padding-left: 20px;
+  }
+
 @media (max-width: 768px) {
   .banner {
     padding: 100px 20px;
@@ -121,4 +126,11 @@ a {
   .card {
     width: 90%;
   }
+
+  
+  .card-content {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+}
 }
